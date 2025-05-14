@@ -758,7 +758,7 @@ module.exports = [{
       antiedit: "private",
       menustyle: "3",
       autoreact: false,
-      statusemoji: "🧡",
+      statusemoji: "💘",
       autorecord: false,
       antidelete: "private",
       alwaysonline: true,
