@@ -15,34 +15,34 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~7QFCjQJR#DrWAuqXrakvRPCzSaKDLNTeH8S5qWuGelvqpqYdRQjo' 
 //Enter your KANGO-XMD session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'KANGO-XMD' 
+global.botname = process.env.BOT_NAME || 'Mezo-XMD' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '967737635893' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '233577860202'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '967737635893'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || 'mezo Manuel' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "KANGO-XMD" 
+global.packname = process.env.STICKER_PACK_NAME || "mezo-XMD" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Hector" 
+global.author = process.env.STICKER_AUTHOR_NAME || "967737635893" 
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
@@ -51,11 +51,11 @@ global.dbToken = process.env.GITHUB_TOKEN || "";
 
 //-----------------[ CONTEXT LINK ]--------------------//
 
-global.plink = process.env.PLINK || "https://youtube.com/@official_manuel"
+global.plink = process.env.PLINK || "https://youtube.com/@official_mnuel"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©KANGO-XMD"
+global.wm = process.env.GL_WM || "> ©🄱🄾🅃 ⚡ 🄼🄴🅉🄾"
 
 //---------------------[ REPLIES ]-----------------------//
 
